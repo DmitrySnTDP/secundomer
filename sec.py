@@ -5,7 +5,7 @@ from time import time
 window = Tk()
 window.geometry('640x480')
 window.title('Секундомер')
-# window.iconbitmap('secundant.ico')
+window.iconbitmap('secundant.ico')
 window.resizable(width = False, height = False)
 canvas = Canvas(window, width = 640, height = 480)
 canvas.place(x = 0, y = 0, width = 640, height = 480)
