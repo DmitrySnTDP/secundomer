@@ -1,0 +1,1 @@
+pyinstaller sec.py -F -w -n Секундомер -i SECUNDANT.ico
